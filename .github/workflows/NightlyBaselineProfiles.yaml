@@ -7,7 +7,7 @@ on:
 jobs:
   baseline_profiles:
     name: "Generate Baseline Profiles"
-    runs-on: self-hosted
+    runs-on: macos-latest
 
     permissions:
       contents: write
